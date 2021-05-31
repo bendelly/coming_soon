@@ -13,7 +13,7 @@ body {
 	padding: 50px 0 0 0;
 }
 
-h1{
+h1	{
 	font-family: 'Oswald';
 	font-size: 52px;
 	margin: 0 0 30px 0;
@@ -55,8 +55,8 @@ p b {
 	background: #ffea00;
 	display: block;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -2px;
+	left: -2px;
 }
 
 #status-text {
@@ -88,7 +88,7 @@ p b {
 .one-third {
 	float: left;
 	width: 33%;
-	padding: 0 10px 0 0;
+	padding: 0 10px;
 }
 
 input[type="text"],input[type="email"] {
@@ -112,7 +112,6 @@ input[type="submit"] {
 	color: #0b0e17;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin: 0 0 20px 0;
 }
 
 ::-webkit-input-placeholder {
